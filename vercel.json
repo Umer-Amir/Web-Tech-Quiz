@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "./src/redux/main.tsx",
+            "src": "main.tsx",
             "use": "@vercel/node"
         }
     ],
