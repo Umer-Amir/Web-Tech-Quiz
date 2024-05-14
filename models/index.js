@@ -9,7 +9,10 @@ import { Offer } from "./Offer.js";
 
 (async () => {
     //await mongoose.connect(`mongodb://localhost:27017/?readPreference=primary&ssl=false&directConnection=true`);
-    await mongoose.connect(`mongodb://127.0.0.1:27017/semester`);
+    // await mongoose.connect(`mongodb://127.0.0.1:27017/semester`);
+    await mongoose.connect(
+    `mongodb+srv://umer:Ernstormia1!@cluster.bg8edgv.mongodb.net/semester`
+  );
     //await mongoose.connect(`mongodb+srv://dbUser:dbUser@cluster0.enbv6.mongodb.net/pharmacy`);
 })();
 
